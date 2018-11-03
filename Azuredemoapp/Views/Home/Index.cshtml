@@ -11,7 +11,7 @@
 <div class="row">
     @{ var env=System.Configuration.ConfigurationManager.AppSettings["Appenv"].ToString();}
 
-    This application is hosted on staging environment : <b>@env</b>
+    This application is hosted : <b>@env</b>
 
     <h4>This application is pointing to database - @ViewBag.Env</h4>
 </div>
